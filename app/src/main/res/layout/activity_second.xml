@@ -4,13 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".SecondActivity">
 
     <Button
-        android:layout_width="match_parent"
+        android:id="@+id/button2"
         android:layout_height="wrap_content"
-        android:id="@+id/button"
-        android:text="Button"
-        />
+        android:layout_width="match_parent"
+        android:text="Button 2" />
 
 </androidx.appcompat.widget.LinearLayoutCompat>
